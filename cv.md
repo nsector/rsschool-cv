@@ -45,10 +45,11 @@ of functional modules using low-level programming languages (C, Assembler)
 
 ## Education
 
-* Lviv Step IT Academy Sept 2016 - Sept 2017
-Software development course
 
 * Lviv Polytechnic National University Sept 2005 - June 2010
 Specialist of Computer Ecological and Economic Monitoring
+
+* Lviv Step IT Academy Sept 2016 - Sept 2017
+Software development course
 
 

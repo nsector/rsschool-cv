@@ -35,7 +35,7 @@ maintenance.
 
 
 * Support, repair of computer equipment and peripherals
- * Designed, development and maintenance of the organization's website based on PHP 5.6
+* Designed, development and maintenance of the organization's website based on PHP 5.6
 
 #### Production line operator
 

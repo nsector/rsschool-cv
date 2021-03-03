@@ -1,1 +1,1 @@
-# rsschool-cv
+https://nsector/rsschool-cv/cv

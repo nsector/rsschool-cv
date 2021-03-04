@@ -1,1 +1,1 @@
-https://nsector.github.io/rsschool-cv/index
+https://nsector.github.io/rsschool-cv/

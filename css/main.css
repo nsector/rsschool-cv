@@ -1,0 +1,89 @@
+body {
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 800px;
+}
+p{
+	text-align: justify;
+}
+avatar {
+	display: block;
+}
+aside {
+	width: 300px;
+	height: 950px;
+	float: left;
+	background:#335383;
+}
+avatar img {
+	margin: 50px 0 0 50px;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+}
+contacts 
+ul 
+li {
+	margin: 0 0 15px 0;
+	font-family: 'SourceSansProRegular';
+	font-weight: normal;
+	font-size: 10.2pt;
+	color: #FFFFFF;
+	text-align: center;
+	list-style-type: none;
+	text-align: left;
+}
+contacts 
+ul 
+li:first-child 
+p{
+	margin: 0 0 12px 0;
+	font-weight: bold;
+}
+main {
+	width: 500px;
+	float: right;
+}
+main name {
+	margin-top: 100px;
+	margin-left: 25px;
+	display: block;
+}
+main 
+name 
+p {
+	font-family: 'SourceSansProRegular';
+	font-weight: bold;
+	font-size: 20pt;
+	color :#335384;
+}
+main 
+h3,
+h4 {
+	color: #5BA7D1;
+}
+
+main 
+objective, 
+experience,
+education {
+	margin-top: 50px;
+	margin-left: 25px;
+	display: block;
+}
+main 
+objective 
+p{
+	font-family: 'Assistant';
+	font-size: 11pt;
+}
+main
+experience 
+h4~h4, 
+education 
+h4~h4{
+	color:black;
+}
+

@@ -1,0 +1,139 @@
+.gg-smartphone-shake {
+  background:
+      linear-gradient(to left,
+          currentColor 5px,transparent 0)
+          no-repeat 4px 12px/2px 2px;
+  box-sizing: border-box;
+  position: relative;
+  transform: scale(var(--ggs,1));
+  display: block;
+  width: 14px;
+  height: 20px;
+  border: 2px solid;
+  border-radius: 2px;
+float:left;
+}
+.gg-smartphone-shake::after,
+.gg-smartphone-shake::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  height: 10px;
+  width: 6px;
+  border: 2px solid transparent;
+  overflow: hidden;
+  box-shadow: 2px 0 0,
+        inset -2px 0 0;
+  top: 3px;
+  left: -12px
+}
+.gg-smartphone-shake::after {
+  transform: scaleX(-1);
+  left: 16px
+}
+
+
+
+.gg-mail,
+.gg-mail::after {
+  display: block;
+  box-sizing: border-box;
+  height: 14px;
+  border: 2px solid
+}
+.gg-mail {
+  overflow: hidden;
+  transform: scale(var(--ggs,1));
+  position: relative;
+  width: 18px;
+  border-radius: 2px
+}
+.gg-mail::after {
+  content: "";
+  position: absolute;
+  border-radius: 3px;
+  width: 14px;
+  transform: rotate(-45deg);
+  bottom: 3px;
+  left: 0
+}
+
+
+
+.gg-pin {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: rotate(45deg) scale(var(--ggs,1));
+  width: 18px;
+  height: 18px;
+  border-radius: 100% 100% 0 100%;
+  border: 2px solid;
+  margin-top: -4px
+ }
+ 
+ .gg-pin::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 2px solid;
+  top: 3px;
+  left: 3px;
+  border-radius: 40px
+ } 
+
+ .gg-facebook {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 20px;
+  height: 20px
+ }
+ 
+ .gg-facebook::after,
+ .gg-facebook::before {
+  content: "";
+  display: block;
+  position: absolute;
+  box-sizing: border-box
+ }
+ 
+ .gg-facebook::before {
+  width: 8px;
+  height: 20px;
+  border-left: 4px solid;
+  border-top: 4px solid;
+  border-top-left-radius: 5px;
+  left: 6px
+ }
+ 
+ .gg-facebook::after {
+  width: 10px;
+  height: 4px;
+  background: currentColor;
+  top: 7px;
+  left: 4px;
+  transform: skew(-5deg)
+ } 
+ 
+ .fleft {
+  float:left;
+  margin-right:20px;
+ }
+
+ .skillPoints {
+border: 1px solid white; 
+width:3px;
+height:3px; 
+float: left; 
+border-radius:50%;
+margin:8px 5px 0 0;
+}
+.checked{
+background: #FFFFFF;
+}
